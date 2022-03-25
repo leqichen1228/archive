@@ -1,3 +1,15 @@
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("mySidebar").style.zIndex = "9999";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("mySidebar").style.zIndex = "666";
+}
+
+
+
 // The Description is returned as Markdown, of course.
 let markdownIt = document.createElement('script')
 markdownIt.src = 'https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.3.2/markdown-it.min.js';
