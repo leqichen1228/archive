@@ -160,19 +160,20 @@ header{
 
 section{
 	position: relative;
-	left:12vw;
+	left:5vw;
 	margin:0;
 }
 
 .two-column{
 	display: flex;
-	column-gap:2vw;
 	margin-top: -40vw;
-
 }
 
-.two-column section{
-	display: inline-block;
+
+section,
+figure {
+	max-width: 60vw;
+	margin:5vw 4vw 10vw 0vw;
 }
 
 
@@ -191,12 +192,12 @@ section{
 
 
 
-section,
-figure {
-	max-width: 36vw;
-	margin:5vw 4vw 10vw 0;
+figure{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	column-gap: 2vw;
 }
-
 
 
 a {
@@ -205,6 +206,12 @@ a {
 
 h1, h2, h3 {
 	font-size: 1.5vw;
+}
+
+.text-block .content{
+	font-size:1.5vw;
+	background-color: white;
+	padding:2vw;
 }
 
 

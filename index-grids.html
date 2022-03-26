@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="assets/reset.css" rel="stylesheet">
-		<link href="assets/style.css" rel="stylesheet">
+		<link href="assets/style-grids.css" rel="stylesheet">
 		<script src="assets/arena.js"></script>
 		<link href="assets/favicon.png" rel="icon">
 	</head>
@@ -52,8 +52,8 @@
 
 
 		<div class="two-column">
-				<section class="image-blocks text-blocks"></section>
-				<section class="link-blocks video-embed-blocks video-file-blocks audio-embed-blocks audio-file-blocks"></section>			
+				<section class="image-blocks audio-embed-blocks text-blocks audio-file-blocks"></section>	
+				<section class="link-blocks video-embed-blocks video-file-blocks"></section>	
 		</div>
 
 
@@ -77,13 +77,8 @@
  		<!-- Spotify, Soundcloud, etc. -->
 		<template id="audio-embed-block">
 			<figure class="audio-embed"> <!-- You can use the container classes to style a whole type. -->
-				<h3 class="title"></h3> <!-- Block title inserts here. -->
 				<img class="image"> <!-- Image/cover image source inserts here. -->
-				<div class="embed"></div> <!-- Embed iframe inserts here. -->
-				<a class="link"> <!-- Original URL inserts here. -->
-					<p class="link-title"></p> <!-- Link title inserts here. -->
-				</a>
-				<figcaption class="description"></figcaption> <!-- Block description inserts here. -->
+				<h3 class="title"></h3> <!-- Block title inserts here. -->
 				<p class="type"></p> <!-- Block type/kind inserts here. -->
 			</figure>
 		</template>
@@ -91,55 +86,40 @@
  		<!-- Uploaded audio files. -->
 		<template id="audio-file-block">
 			<figure class="audio-file-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<audio class="audio" controls></audio> <!-- Audio source inserts here. -->
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>		
 				<p class="type"></p>
 			</figure>
 		</template>
 
 		<template id="image-block">
 			<figure class="image-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<a class="link">
-					<p class="link-title"></p>
-				</a>
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>	
 				<p class="type"></p>
 			</figure>
 		</template>
 
 		<template id="link-block">
 			<figure class="link-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<a class="link">
-					<p class="link-title"></p>
-				</a>
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>
 				<p class="type"></p>
 			</figure>
 		</template>
 
 		<template id="pdf-block">
 			<figure class="pdf-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<a class="link"> <!-- PDF link inserts here. -->
-					<p class="link-title"></p> <!-- Repeats the block title. -->
-				</a>
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>
 				<p class="type"></p>
 			</figure>
 		</template>
 
 		<template id="text-block">
 			<figure class="text-block">
-				<h3 class="title"></h3>
 				<div class="content"></div> <!-- Text blocks insert their HTML here. -->
-				<figcaption class="description"></figcaption>
+				<div></div>
 				<p class="type"></p>
 			</figure>
 		</template>
@@ -147,13 +127,8 @@
 		<!-- YouTube, Vimeo, etc. -->
 		<template id="video-embed-block">
 			<figure class="video-embed-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<div class="embed"></div>
-				<a class="link">
-					<p class="link-title"></p>
-				</a>
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>
 				<p class="type"></p>
 			</figure>
 		</template>
@@ -161,10 +136,8 @@
 		<!-- Uploaded video files. -->
 		<template id="video-file-block">
 			<figure class="video-file-block">
-				<h3 class="title"></h3>
 				<img class="image">
-				<video class="video" controls></video> <!-- Video source inserts here. -->
-				<figcaption class="description"></figcaption>
+				<h3 class="title"></h3>
 				<p class="type"></p>
 			</figure>
 		</template>
