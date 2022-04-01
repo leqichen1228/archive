@@ -205,7 +205,7 @@ section{
 
 section,
 figure {
-	max-width: 36vw;
+	max-width: 30vw;
 	margin:5vw 4vw 10vw 0;
 }
 
@@ -229,6 +229,7 @@ h1, h2, h3 {
 	line-height: 2.5vw; 
 	letter-spacing: -0.05vw;
 	margin-top:2vw;
+
 }
 
 .type{
@@ -367,7 +368,6 @@ h1, h2, h3 {
 		max-width: 80vw;
 		margin:5vw 4vw 20vw 0;
 	}
-	
 
 	.description, p{
 		font-family: Title;
@@ -377,10 +377,9 @@ h1, h2, h3 {
 		margin-top:5vw;
 	}
 
-	.title h3{
-		font-size: 2.5vw;
+	.title{
+		font-size: 3vw;
 	}
-
 
 	.fixed:nth-child(1){
 		height: 15vw;
@@ -423,7 +422,7 @@ h1, h2, h3 {
 		top:10vw;
 		left:12vw;
 		color:black;
-		font-size: 1.5vw;
+		font-size: 2vw;
 		z-index: 99;
 	}
 
@@ -470,7 +469,7 @@ h1, h2, h3 {
 	}
 
 	#channel-title{
-		font-size: 5vw;
+		font-size: 8vw;
 		color:white;
 	}
 
