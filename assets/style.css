@@ -115,6 +115,15 @@ header{
 .fixed:nth-child(9){
 	height: 100vw;
 	}
+.fixed:nth-child(10){
+	height: 100vw;
+	}
+.fixed:nth-child(11){
+	height: 100vw;
+	}
+.fixed:nth-child(12){
+	height: 100vw;
+	}
 
 
 
@@ -142,20 +151,16 @@ header{
 .ten {
         background-image: url(images/10.png)
       }
+.eleven {
+        background-image: url(images/16.jpg)
+      }
+.twelve {
+        background-image: url(images/14.jpg)
+      }
+.thirteen {
+        background-image: url(images/15.jpg)
+      }
 
-
-#credits{
-	top:-10vw;
-	left:12vw;
-	color:black;
-	font-size: 1.2vw;
-	z-index: 99;
-}
-
-#credits p{
-	line-height: 2vw;
-	font-family: Headline;
-}
 
 
 section{
@@ -204,14 +209,19 @@ a {
 }
 
 h1, h2, h3 {
-	font-size: 1.5vw;
+	font-size: 2vw;
+}
+
+.title{
+	margin-bottom: 2vw;
 }
 
 
 .description, p{
 	font-family: Title;
-	line-height: 1.8vw; 
+	line-height: 2.5vw; 
 	letter-spacing: -0.05vw;
+	margin-top:2vw;
 }
 
 .type{
@@ -220,18 +230,241 @@ h1, h2, h3 {
 }
 
 
+#credits{
+	top:-10vw;
+	left:12vw;
+	color:black;
+	font-size: 1.5vw;
+	z-index: 99;
+}
+
+#credits p{
+	line-height: 3vw;
+	font-family: Headline;
+}
+
+
 
 
 @media (max-width: 768px){
 	.two-column{
-		column-gap:8vw;
+		display: flex;
+		column-gap:2vw;
+		margin-top: -90vw;
 	}
+
+	.title {
+		font-size: 3vw;
+		margin-bottom: 4vw;
+		margin-top:10vw;
+	}
+
+	.description, p{
+		font-family: Title;
+		line-height: 2.5vw; 
+		font-size:2vw;
+		letter-spacing: -0.05vw;
+		margin-top:3vw;
+	}
+
+	.fixed:nth-child(1){
+		height: 10vw;
+		}	
+	.fixed:nth-child(2){
+		height: 10vw;
+		}
+	.fixed:nth-child(3){
+		height: 120vw;
+		}	
+	.fixed:nth-child(4){
+		height: 120vw;
+		}
+	.fixed:nth-child(5){
+		height: 120vw;
+		}
+	.fixed:nth-child(6){
+		height: 120vw;
+		}
+	.fixed:nth-child(7){
+		height: 120vw;
+		}
+	.fixed:nth-child(8){
+		height: 120vw;
+		}
+	.fixed:nth-child(9){
+		height: 120vw;
+		}
+	.fixed:nth-child(10){
+		height: 120vw;
+		}
+	.fixed:nth-child(11){
+		height: 120vw;
+		}
+	.fixed:nth-child(12){
+		height: 120vw;
+		}
+
+	#menu_icon{
+		position: fixed;
+		z-index: 8888;
+		top:7vw;
+		right:6vw;
+		width: 6vw;
+		height: auto;
+		cursor:pointer;
+	}
+
+	#mySidebar{
+		position: fixed;
+		z-index: 666;
+		right:0;
+		top:0;
+		height: 100%;
+		width: 25vw;
+		padding:10vw;
+		line-height: 10vw;
+		background-color: white;
+		overflow:auto;
+		display: none;
+	}
+
+	#close_icon{
+		position: absolute;
+		margin-left:-6vw;
+		margin-top:-5vw;
+		width:2vw;
+		height: auto;
+		cursor:pointer;
+	}
+
+	#channel-title{
+		font-size: 5vw;
+		color:white;
+	}
+
 }
 
 
-@media (max-width: 375px){
+@media (max-width: 450px){
 	.two-column{
-		column-gap:5vw;
+		display: block;
+		margin-top: -700px;
+	}
+
+	.two-column section{
+		display: block;
+	}
+
+	section,
+	figure {
+		max-width: 80vw;
+		margin:5vw 4vw 20vw 0;
+	}
+	
+
+	.description, p{
+		font-family: Title;
+		line-height: 4.5vw; 
+		font-size:1.5vw;
+		letter-spacing: -0.05vw;
+		margin-top:5vw;
+	}
+
+	.title h3{
+		font-size: 2.5vw;
+	}
+
+
+	.fixed:nth-child(1){
+		height: 15vw;
+		}	
+	.fixed:nth-child(2){
+		height: 15vw;
+		}
+	.fixed:nth-child(3){
+		height: 490vw;
+		}	
+	.fixed:nth-child(4){
+		height: 490vw;
+		}
+	.fixed:nth-child(5){
+		height: 490vw;
+		}
+	.fixed:nth-child(6){
+		height: 490vw;
+		}
+	.fixed:nth-child(7){
+		height: 490vw;
+		}
+	.fixed:nth-child(8){
+		height: 490vw;
+		}
+	.fixed:nth-child(9){
+		height: 490vw;
+		}
+	.fixed:nth-child(10){
+		height: 490vw;
+		}
+	.fixed:nth-child(11){
+		height: 490vw;
+		}
+	.fixed:nth-child(12){
+		height: 490vw;
+		}
+
+	#credits{
+		top:10vw;
+		left:12vw;
+		color:black;
+		font-size: 1.5vw;
+		z-index: 99;
+	}
+
+	#credits p{
+		line-height: 3vw;
+		font-family: Headline;
+	}
+
+	#menu_icon{
+		position: fixed;
+		z-index: 8888;
+		top:5vw;
+		right:6vw;
+		width: 8vw;
+		height: auto;
+		cursor:pointer;
+	}
+
+	#mySidebar{
+		position: fixed;
+		z-index: 666;
+		right:0;
+		top:0;
+		height: 100%;
+		width: 30vw;
+		padding:10vw;
+		line-height: 20vw;
+		background-color: white;
+		overflow:auto;
+		display: none;
+	}
+
+	#mySidebar a{
+		font-size: 2vw;
+	}
+
+	#close_icon{
+		position: absolute;
+		margin-left:-6vw;
+		margin-top:-5vw;
+		width:3.5vw;
+		height: auto;
+		cursor:pointer;
+	}
+
+	#channel-title{
+		font-size: 5vw;
+		color:white;
 	}
 
 }
