@@ -8,6 +8,13 @@ function w3_close() {
   document.getElementById("mySidebar").style.zIndex = "666";
 }
 
+window.addEventListener('mouseup', function(event){
+	var box = document.getElementById('mySidebar');
+	if (event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+    }
+});
+
 
 
 // The Description is returned as Markdown, of course.
