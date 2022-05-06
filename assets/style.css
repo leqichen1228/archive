@@ -73,7 +73,7 @@ header{
 	right:0;
 	top:0;
 	height: 100%;
-	width: 20vw;
+	width: 25vw;
 	padding:3vw 5vw 5vw 5vw;
 	line-height: 3vw;
 	background-color: #8CF2E9;
@@ -89,6 +89,10 @@ li{
 	display: block;
 	margin-top: 3vw;
 	margin-bottom: 3vw;
+}
+
+.top_image{
+	margin-bottom: 6vw;
 }
 
 #horizontal {
@@ -115,7 +119,6 @@ section{
 
 .two_column {
 	position: relative;
-	background-color: gold;
 	left: 0;
 	width: 100%;
 	height: auto;
@@ -134,7 +137,6 @@ section{
 
 
 section div {
-	background-color: tomato;
 	padding: 0;
 	text-align: center;	
 }
@@ -171,9 +173,9 @@ section div {
 		right:0;
 		top:0;
 		height: 100%;
-		width: 25vw;
+		width: 40vw;
 		padding:10vw;
-		line-height: 10vw;
+		line-height: 5vw;
 		overflow:auto;
 		display: none;
 	}
@@ -211,8 +213,8 @@ section div {
 		opacity: 100%;
 		position: absolute;
 		top: 10vw;
-		width: 70vw;
-		left: 15vw;	
+		width: 80vw;
+		left: 10vw;	
 	}
 
 	header{
@@ -220,14 +222,14 @@ section div {
 	}
 
 	h1{
-		font-size: 4vw;
+		font-size: 5vw;
 		line-height: 6vw;
 	}
 
 
 	section{
-		max-width: 80vw;
-		margin:10vw 4vw 10vw 0;
+		max-width: 90vw;
+		margin:15vw 0 10vw 0;
 	}
 	
 	#menu_icon{
@@ -248,7 +250,7 @@ section div {
 		height: 100%;
 		width: 60vw;
 		padding:10vw;
-		line-height: 15vw;
+		line-height: 10vw;
 		overflow:auto;
 		display: none;
 	}
@@ -266,6 +268,10 @@ section div {
 	h3{
 		font-size: 3vw;
 		line-height: 5vw;
+	}
+
+	img{
+		margin-top: 5vw;
 	}
 
 
